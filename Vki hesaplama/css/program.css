@@ -1,0 +1,89 @@
+.tablo{
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 600px;
+}
+
+
+.tablo,
+.tablo * {
+    font-family: sans-serif;
+}
+
+.tablo th {
+    font-size: 1.15em;
+    text-align: left;
+    font-weight: normal;
+    color: #ffffff;
+    background: #009578;
+}
+
+.tablo th,
+.tablo td {
+    padding: 0.75em;
+}
+
+.idmanlar .idman-satiri {
+    background: #eeeeee;
+}
+
+.idmanlar .idman-satiri:nth-child(odd) {
+    background: #dddddd;
+}
+
+.idman-tarihi,
+.idman-adi,
+.idman-suresi {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 1em;
+    height: 2.5em;
+    padding: 0.5em 0;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.idman-suresi {
+    width: 5em;
+    text-align: right;
+}
+
+.idman-butonu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    color: red;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+
+.idman-butonu:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.idman-satiri-ekle {
+    border-top: 3px solid #333333;
+    border-bottom: 3px solid #333333;
+    background: #ffffff;
+}
+
+.idman-satiri-ekle td {
+    text-align: right;
+}
+
+.idman-ekle {
+    display: inline-block;
+    padding: 0.8em 1em;
+    color: green;
+    cursor: pointer;
+}
+
+.idman-ekle:hover {
+    background:rgba(0, 0, 0, 0.1);
+}
